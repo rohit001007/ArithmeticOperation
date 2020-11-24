@@ -27,4 +27,5 @@ res[2]=$r
 res[3]=$s
 
 echo -ne "\n Index Numbers : ${!res[@]}"
+
 echo -ne "\n Index Numbers : ${res[@]}"
