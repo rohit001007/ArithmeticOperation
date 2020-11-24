@@ -9,5 +9,7 @@ read -p "Enter Third Number : " c
 echo -ne "\n The Numbers Are $a $b $c \n"
 
 p=$(( a+(b*c) ))
+q=$(( (a*b)+c ))
 
 echo -ne "\n The Result is $p \n"
+echo -ne "\n The Result is $q \n"
