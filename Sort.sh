@@ -10,6 +10,8 @@ echo -ne "\n The Numbers Are $a $b $c \n"
 
 p=$(( a+(b*c) ))
 q=$(( (a*b)+c ))
+r=$(( c+(a/b) ))
 
 echo -ne "\n The Result is $p \n"
 echo -ne "\n The Result is $q \n"
+echo -ne "\n The Result is $r \n"
